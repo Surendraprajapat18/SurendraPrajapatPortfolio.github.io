@@ -2094,8 +2094,10 @@ input, select, textarea {
 			border-radius: 0;
 			padding: 0;
 		}
+/* Image border round */
+	.circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
 
-/* Icon */
+		/* Icon */
 
 	.icon {
 		text-decoration: none;
