@@ -1,15 +1,17 @@
 <!DOCTYPE HTML>
-
+<html lang="en">
+	
 <html>
 	<head>
-		<title>Surendra Prajapat Portfolio Web</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<!-- Favicon -->
-		<link rel="icon" href="images\Profile.png" type="images\Profile.png">
+	    <title>Surendra Prajapat Portfolio Web</title>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	    <link rel="stylesheet" href="assets/css/main.css" />
+	    <link rel="icon" href="images/Profile.png" type="images/Profile.png">
+	    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	    <noscript>
+	        <link rel="stylesheet" href="assets/css/noscript.css" />
+	    </noscript>
 	</head>
 	<body class="is-preload">
 
@@ -17,13 +19,12 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Surendra</strong> <span>Portfolio Web</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-
-					</header>
+					<header id="header" class="alt" style="background-image: url('path/to/header-background.jpg');">
+				            <a href="index.html" class="logo"><strong>Surendra</strong> <span>Portfolio Web</span></a>
+				            <nav>
+				                <a href="#menu">Menu</a>
+				            </nav>
+				        </header>
 
 				<!-- Menu -->
 					<nav id="menu">
@@ -31,41 +32,32 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="landing.html">Projects</a></li>
 							<li><a href="generic.html">About</a></li>
-
 						</ul>
 					</nav>
 					
 				<!-- Banner -->
 					<section id="banner" class="major">
-						<div class="inner">
-							<br>
-							<!-- Profile Img -->
-							<center>
-								<object class="circular--square" data="images\Profile.png" alt="Avatar"
-						
-										width="244"
-										height="244">
-								</object>
-							</center>
-
-							<header class="major">
-								<h1>Hi, Here is Surendra Prajapat</h1>
-							</header>
-							<div class="content">
-								<p>Data Analyst/Data Engineer skilled in SQL(Intermediate), DBMS, Python, Machine Learning, Power BI, AWS(S3, EC2 Instance, IAM).</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Project</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+				            <div class="inner">
+				                <center>
+				                    <img class="circular--square" src="images/Profile.png" alt="Avatar" width="244" height="244">
+				                </center>
+				                <header class="major">
+				                    <h1>Hi, I'm Surendra Prajapat</h1>
+				                </header>
+				                <div class="content">
+				                    <p>Data Analyst/Data Engineer skilled in SQL(Intermediate), DBMS, Python, Machine Learning, Power BI, AWS(S3, EC2 Instance, IAM).</p>
+				                    <ul class="actions">
+				                        <li><a href="#one" class="button next scrolly">Projects</a></li>
+				                    </ul>
+				                </div>
+				            </div>
+				        </section>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- One -->
 							<section id="one" class="tiles">
-
 								<article>
 									<span class="image">
 										<img src="images/Spam-mail.png" alt="" width="original_width" height="original_height" />
@@ -163,11 +155,10 @@
 									</ul>
 								</div>
 							</section>
-
 					</div>
 
 				<!-- Contact -->
-					<section id="contact">
+					<section id="contact" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIVFRUVFRUVFRUVFRUVFRUVFRUWFxUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0PDysZFRkrNysrKystLTc3KzcrLTctLS0tKystLS0tLSstLSsrLSsrKysrKystKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAiEAEBAQEAAgIDAQADAAAAAAAAARECEiEDQTFRYZFxgdH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/APDwZgWDDAFgMgABgRWKICB4MBIVgBIOgCBgCBjAIzICBgCBkAAAAGAIAAQMAAADQHhRQYDgQSFWDFCGKkFBIxeF4gnCUdQRgxRKFgxeCxBnh4rB4gjDPDwE4SsGAnBhjFCJWBAsJQwCJeDATgVhWAnBhngJCsANMFiuJ6PxUZqkPFcwEXkSNOomxFKcjxVD5URgXhXkEWDFHIIzvJzlXUEgqcFaYmiJwsUcgqLBirCwROHIrDwEeJY1xOAjCxWHgIw5F3kYip8Ri8AM8K8tLBgMpFK7heIIMyBrIqlzyrx9NIXJ0pD5mopE1wus+gRzFSJquYB2Cw4ajOQdRXUKCJOQ7CRVcwryfK/EGPiUi6QF4i8nhyAmQ8XeYmhCxLZHXIM8GLkPDBNKKsOAXiWLnKcRSwsXIXQiKOgVBOgBUb/HFdVPEWomnYrxPwRWelF2DwBM5Xkib/f9F6UEV4p5V1RDkLrkrR5inyVp1NA5FcpkLqgvE9cNOaOgZyF1F4XfKKz9nxFzlnYI1hXlMVyKV5Fh2l7ET0Xi0nNLuAnCsXFyTE1cxhSdF5jPvkEThPXLTE9KjMACN+FaiHii58ieu9PvnETkVpzD6/hcz+q8QLmDn4z5PyRYXgWLkPFSMLNXx8X7VeE9Am+iqpwnAEiaseICdNOaxytPjtA+6nVdVMRStJdR4qi8TKcGIosEp+AwBOixC+aIns+ekLkA+6nrrR3UakWmmqtK1URgSBG/ji+b+/8AUnzFVp8kjGKkGIL1NolNQ5B1yviYffSKylXz2WfYv/CoPsu4OafUBPl6TPX5ORN+P2IrNPxTzK1+Oz9io55/YlxdxHdRT/LOtZDEL440nDL41ddZ+fahd9RHN9/+tO+IPj5RU38qtNPeAixKhKCacK08ELqJi8RgHqbDl9JvQJwNL1AB2q+kHKGL+isLRAOUaijVG07TiebPutNBNn4aeOotytJ1oJvxjf39K66+vsuvwB+U/wBZW56Ln8l8tELT4ntNXOPsDuF4qz2154gMr6/KpN9qrGXLgrfj7L5L6Gl5fQMuZb6aeTPm5T76QXUWf8lxTtULE2f1cgqDP/tcTTAdT+p604QCM+mkT2DIACNIrU6WqNPIcs4rlA+hBAKchpK9Ki+6fPyVl5aIDfzLz/rOlUVv5ptRL6HnIo1nMibRz3qO+xFTv9r5+TZ+WPXXplOrAdfXWT8stqObftrOQXz16TfZXhM6FTdXzBonSB+JaL0VqivMvIoKinaJU0tQXBWcO1UFqDT0gVgAVDlVrHnpc6BdKdF5ECrVTpnpgukWp0Fzo7WQ0Fac6SNBUo8S5PQPTlTStBcPqax8lc9g0lVrHVToF9dIhlgH5EkaCk+RAGk6K1MAK8itSLUU9PWYxUXqSGAZFn9AqNXrPVSoipT1GiA00agaorRpAD0SlRAGnKRgrUaCBemzGgu0sKAFQJOQF8dHekaXkCsPClFACUiBWjSIFaRADIEAAKophIBOHoAhQwFDgAA8AAAAANEoAHqZTAFpaYQA0wA0SgKHSlMAeneiADSAA5StAAtUAgVAAoFAAsMAH//Z');">
 						<div class="inner">
 							<section class="split">
 								<section>
